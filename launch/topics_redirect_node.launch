@@ -1,0 +1,4 @@
+<launch>
+    <param name="estop_topic_name" value="gem_estop"/>
+    <node pkg="redirect_lidar_imu" type="redirect_lidar_imu_topics.py" name="lidar_imu_topics_redirector"/>
+</launch>
